@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import './TaskCard.css'
 import { Task, ColumnId } from '../../types'
 import { TaskForm } from '../TaskForm/TaskForm'

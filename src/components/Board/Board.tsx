@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'
+import { useState, useCallback } from 'react'
 import './Board.css'
 import { Task, ColumnId } from '../../types'
 import { loadBoard, saveBoard } from '../../lib/storage'
