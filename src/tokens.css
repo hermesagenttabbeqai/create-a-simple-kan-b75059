@@ -1,0 +1,32 @@
+:root {
+  /* Colours */
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-border: #334155;
+  --color-accent: #38bdf8;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  --color-danger: #f87171;
+  --color-todo: #818cf8;
+  --color-inprogress: #fb923c;
+  --color-ready: #34d399;
+
+  /* Tag colours (cycled by index) */
+  --tag-0: #38bdf8;
+  --tag-1: #a78bfa;
+  --tag-2: #fb923c;
+  --tag-3: #34d399;
+  --tag-4: #f472b6;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+
+  /* Fonts */
+  --font-body: system-ui, sans-serif;
+  --font-size-base: 14px;
+  --radius-card: 8px;
+  --radius-tag: 4px;
+}
